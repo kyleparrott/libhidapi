@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="https://raw.githubusercontent.com/kyleparrott/libhidapi/master/libhidapi.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libhidapi</name>
+  <summary>libhidapi</summary>
+  <package-implementation package="libhidapi"/>
+  <package-implementation distributions="Arch" package="libhidapi"/>
+    <group arch="MacOSX-*">
+        <implementation id="sha1=82f811cc9bde5dea8a1f9ebd84ced341dc4004f2" version="0.0">
+            <archive href="https://raw.githubusercontent.com/kyleparrott/libhidapi/master/libhidapi.0.dylib.zip" size="6369"/>
+        </implementation>
+    </group>
+    <group arch="Linux-*">
+        <implementation id="sha1=c0e122cf3e822df3877383c6152db6d8b6c03c51" version="0.0">
+            <archive href="https://raw.githubusercontent.com/kyleparrott/libhidapi/master/libhidapi-hidraw.so.0.zip" size="7691"/>
+        </implementation>
+    </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABCgAGBQJX9VvCAAoJEJzS+Pb4kyScskMP/3JQQTRoMBcRhIX05DsLyMcQGzDypidjiL5c
+QKgNg6jlRidekY+0kNp+dGHtC2Nznf9X4ZKvAitzYzXNOP9px8gvYFGOE8iKx0ALFPWGscPboP0V
+I/HTovvOFgeNLnlaZko8PELakwf4K6IO78KNm+5xAwpxAFPEql2jQUTiqs22LdRlIA561VJK9c2t
+tBs/1/8EkO7nWR5JoiZKpxzLf0VVGYu87dEl90CkUDfF23wNjzSRNod6xpKBHLp7pIaP5SwwO+Rr
+gG2RO1PoneQnMqq1Hajj7SftI0eIfpnXGG+PZX409NEZb8x7WbhVLy5ulcjkIpAo5jy0Yru4LA8Z
+zUlmfLkBk8ra6MCR61I2qVssT/EfLw2TPhT862p1073vjfgsv3E77ebBsBe1Tt8rMAvMDfy0PHD6
+GvTLPMBBBmKVKJ2SPPNoVZiKfggrQfRas3uZyyF3B5yblG6MXvG8xN4qtehb5+BcskybFlr9Tg6b
+KBQ1wnBKAofSS7zfSIGDhhX7l/OymjBeWHuOu0yGp7/v0SDs5UoFjdFXeJYJHdm74AwD7dEr0R8T
+Tpt0D+HPwHkIFQmwPQt+uXnibfV1JzgDBpNtnflKn8mrMG+799KSMAGSnf6JW10qxh1QdXgEpYEa
+PFObbACHG1olKY/lJ0nr5N1dNFieIogYFx6zrEXR
+
+-->
